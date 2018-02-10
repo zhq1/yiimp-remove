@@ -1,7 +1,4 @@
 #!/bin/bash
-mysql -u root -p
-DROP DATABASE phpmyadmin;
-DROP DATABASE yiimpfrontend;
 killall -9 main.sh
 killall -9 run.sh
 killall -9 loop2.sh
@@ -36,3 +33,4 @@ rm -rf /$HOME/backup/*
 rm -rf /var/web
 rm -rf /var/www/*
 rm -rf /var/stratum
+rm -rf /var/lib/mysql/*
