@@ -10,7 +10,7 @@ killall -9 blocks.sh
 cd $HOME/
 sudo mkdir yiimpbackup
 cd yiimpbackup
-cp $HOME/.my.cnf $HOME/yiimpbackup
+cp -r $HOME/.my.cnf $HOME/yiimpbackup
 su
 tar -cvjpf stratumbak.tar.gz /var/stratum/*
 tar -cvjpf webbak.tar.gz /var/web/*
