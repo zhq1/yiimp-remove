@@ -6,6 +6,8 @@ killall -9 main.sh
 killall -9 run.sh
 killall -9 loop2.sh
 killall -9 blocks.sh
+rm -rf /var/stratum/*.log
+rm -rf /var/stratum/config/*.log
 
 cd $HOME/
 sudo mkdir yiimpbackup
@@ -44,8 +46,7 @@ sudo cp -r $HOME/yiimp/web/images /var/web/images
 sudo cp -r $HOME/yiimp/web/framework /var/web/framework
 sudo cp -r $HOME/yiimp/web/extensions /var/web/extensions
 sudo cp -r $HOME/yiimp/stratum/stratum /var/stratum/
-rm -rf /var/stratum/*.log
-rm -rf /var/stratum/config/*.log
+
 
 
 cd ~
