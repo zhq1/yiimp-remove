@@ -64,7 +64,7 @@ sudo chmod -R 664 /root/backup/
 sudo chmod -R 644 /var/log/debug.log
 sudo chmod -R 775 /var/web/serverconfig.php
 sudo service nginx restart
-sudo service php7.0-fpm reload
+sudo service php7.0-fpm restart
 
 screen -dmS main /var/web/main.sh
 screen -dmS loop2 /var/web/loop2.sh
