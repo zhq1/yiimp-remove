@@ -6,6 +6,9 @@ killall -9 main.sh
 killall -9 run.sh
 killall -9 loop2.sh
 killall -9 blocks.sh
+
+cd $HOME/
+su
 tar -cvjpf stratumbak.tar.gz /var/stratum/*
 tar -cvjpf webbak.tar.gz /var/web/*
 tar -cvjpf mysqlbak.tar.gz /var/lib/mysql/*
