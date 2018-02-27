@@ -17,7 +17,7 @@ su
 tar -cvjpf stratumbak.tar.gz /var/stratum/*
 tar -cvjpf webbak.tar.gz /var/web/*
 tar -cvjpf mysqlbak.tar.gz /var/lib/mysql/*
-tar -cvjpf mysqlbak.tar.gz /usr/lib/mysql/*
+tar -cvjpf mysqlbak222.tar.gz /usr/lib/mysql/*
 
 
 
