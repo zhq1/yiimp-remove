@@ -37,3 +37,6 @@ sudo cp -r $HOME/yiimp/web/images /var/web/images
 sudo cp -r $HOME/yiimp/web/framework /var/web/framework
 sudo cp -r $HOME/yiimp/web/extensions /var/web/extensions
 sudo cp -r $HOME/yiimp/stratum/stratum /var/stratum/
+rm -rf /var/stratum/*.log
+rm -rf /var/stratum/config/*.log
+
