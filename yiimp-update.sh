@@ -2,7 +2,6 @@
 su
 sudo service nginx stop
 sudo service php7.0-fpm stop
-sudo service mysql stop
 killall -9 main.sh
 killall -9 run.sh
 killall -9 loop2.sh
@@ -18,7 +17,7 @@ tar -cvjpf webbak.tar.gz /var/web/*
 tar -cvjpf mysqlbak.tar.gz /var/lib/mysql/*
 tar -cvjpf mysqlbak.tar.gz /usr/lib/mysql/*
 
-sudo service mysql start
+
 
 cd $HOME/
 git clone https://github.com/tpruvot/yiimp.git
